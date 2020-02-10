@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lucas Leite©</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/262aa4df9a.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div class="dark-swi" data-aos="fade-down">
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+        </label>
+        </div><br>
+
+    </div>
+    <div class="p-dark" data-aos="fade-down">
+        <p>Dark Mode!</p>
+    </div>
+    <section class="card-info">
+        <div class="card">
+            <div class="card-img" data-aos="zoom-in">
+                <img src="images/perfil.jpg" alt="Avatar">
+            </div>
+            <div class="container" data-aos="fade-right" data-aos-delay="500">
+                <h1><b>Lucas Leite</b></h1>
+                <p>Técnico de Informática</p>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/lrleite_/" target="_blank" class="insta" data-aos="fade-up" data-aos-delay="350">
+                    <i class="fab fa-instagram" id="fa-insta"></i>
+                </a>
+                <a href="https://www.facebook.com/lucas.leitee30" target="_blank" class="fb" data-aos="fade-up" data-aos-delay="450">
+                    <i class="fab fa-facebook-f" id="fa-fb"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-leite-4ab814183/" class="linkedin" data-aos="fade-up" data-aos-delay="550">
+                    <i class="fab fa-linkedin" id="fa-git"></i>
+                </a>
+                <a href="https://github.com/lcsxz" target="_blank" class="git" data-aos="fade-up" data-aos-delay="650">
+                    <i class="fab fa-github" id="fa-git"></i>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sobre" id="sobre" data-aos="fade-zoom-in">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>Olá, meu nome é Lucas R. Leite, tenho 17 anos e sou formado em Técnico de Informática pela FIEC.</p>
+            <p>Amo programar e desenvolver sites , aplicativos ou soluções para ajudar o usuario a uma melhor experiencia com a tecnologia.</p>
+
+        </div>
+
+
+    </section>
+
+    <section class="conheci" id="conheci" data-aos="fade-zoom-in">
+        <h1>Conhecimentos</h1>
+        <div class="conheci-container">
+            <div class="con-card" data-aos="flip-up" data-aos-delay="500">
+                <i class="fab fa-html5" style="color: #f06529;"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="con-card" data-aos="flip-up" data-aos-delay="500">
+                <i class="fab fa-css3-alt" style="color: #2092ec;"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="con-card" data-aos="flip-up" data-aos-delay="500">
+                <i class="fab fa-js-square" style="color: #f0db4f;"></i>
+                <h3>Javascript</h3>
+            </div>
+            <div class="con-card" data-aos="flip-up" data-aos-delay="500">
+                <i class="fab fa-bootstrap" style="color: #553a7d;"></i>
+                <h3>Bootstrap</h3>
+            </div>
+
+            <div class="con-card" data-aos="flip-up" data-aos-delay="800" data-aos-offset="250">
+                <i class="fab fa-node" style="color: #7fc728"></i>
+                <h3>NodeJS</h3>
+            </div>
+            <div class="con-card" data-aos="flip-up" data-aos-delay="800" data-aos-offset="250">
+                <i class="fab fa-java" style="color: #d80813;"></i>
+                <h3>Java</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Lucas Leite © Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark'); //add this
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light'); //add this
+            }
+        }
+        toggleSwitch.addEventListener('change', switchTheme, false);
+    </script>
+    <script>
+        AOS.init({
+            offset: 350, // offset (in px) from the original trigger point
+            delay: 1, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
