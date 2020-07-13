@@ -53,7 +53,7 @@ $ npm run dev
 MIT
 
 
-Markdown is a lightweight markup language based on the formatting conventions that 
+
 License
 ----
 
