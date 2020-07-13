@@ -8,10 +8,10 @@ O Principal objetivo deste projeto foi construir uma biografia profissional com 
 # Linguagens e Tecnologias utilizadas!
 ----
 
->HTML
->CSS
->JS
->NodeJS (Express JS)
+-HTML
+-CSS
+-JS
+-NodeJS (Express JS)
 
 
 
