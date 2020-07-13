@@ -9,9 +9,9 @@ O Principal objetivo deste projeto foi construir uma biografia profissional com 
 ----
 
 >HTML
-   >CSS
-    >JS
-    >NodeJS (Express JS)
+>CSS
+>JS
+>NodeJS (Express JS)
 
 
 
